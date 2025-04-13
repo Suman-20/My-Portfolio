@@ -19,7 +19,7 @@ const Contact = () => {
       await axios.post("https://getform.io/f/azywemdb", userInfo);
       toast.success("your message has been sent");
     } catch (error) {
-    toast.error(error);
+      toast.error(error);
     }
   };
 
@@ -36,7 +36,7 @@ const Contact = () => {
             onSubmit={handleSubmit(onSubmit)}
             //  action="https://getform.io/f/azywemdb"
             // method="POST"
-            className="bg-slate-200 w-96 px-8 py-6 rounded-xl"
+            className="bg-slate-200 w-90 md:w-96 px-8 py-6 rounded-xl mx-auto "
           >
             <h1 className="text-xl font-semibold mb-4"> Send your message</h1>
             <div className="space-y-4 flex flex-col mb-4">
