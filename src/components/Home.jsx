@@ -190,7 +190,7 @@ const Home = () => {
 
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              className="h-[230px] w-[230px] md:h-[350px] md:w-[350px] rounded-full border-2 border-blue-500 object-cover  "
+              className="h-[220px] w-[220px] md:h-[350px] md:w-[350px] rounded-full border-2 border-blue-500 object-cover  "
               src="/suman.png.jpg"
               alt="Suman"
             />
