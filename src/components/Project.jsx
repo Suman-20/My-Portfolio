@@ -26,6 +26,12 @@ const projects = [
     githubLink: "https://github.com/Suman-20/Paste-Application--2.0",
     image: "/paste.png",
   },
+  {
+    title: "Menncare",
+    description: "A modern, responsive mental wellness website built with React and Tailwind CSS.",
+    githubLink: "https://github.com/Suman-20/Menncare-Mental-Wellness-website-",
+    image: "/menncare.png",
+  },
 ];
 
 const ProjectCard = ({ title, description, githubLink, image }) => {
