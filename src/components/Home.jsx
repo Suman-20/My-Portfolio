@@ -109,10 +109,10 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 
-import { SiMongodb } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { FaNode } from "react-icons/fa6";
+// import { SiMongodb } from "react-icons/si";
+// import { SiExpress } from "react-icons/si";
+// import { FaReact } from "react-icons/fa";
+// import { FaNode } from "react-icons/fa6";
 
 import { ReactTyped } from "react-typed";
 
@@ -128,7 +128,7 @@ const Home = () => {
               {/* <span className="text-red-700 font-bold">Suman</span> */}
               <ReactTyped
                 className="text-red-700 font-bold "
-                strings={["Frontend-Developer","Programmer","Coder"]}
+                strings={["MERN-Stack-Developer","Programmer","Coder"]}
                 typeSpeed={40}
                 backSpeed={50}
                 loop={true}
@@ -174,7 +174,7 @@ const Home = () => {
                 </ul>
               </div>
 
-              <div className="">
+              {/* <div className="">
                 <h1 className="text-lg md:text-xl font-semibold mb-2">
                   Currently Working on..
                 </h1>
@@ -184,7 +184,8 @@ const Home = () => {
                   <FaReact className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]" />
                   <FaNode className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]" />
                 </div>
-              </div>
+              </div> */}
+
             </div>
           </div>
 

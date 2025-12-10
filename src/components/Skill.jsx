@@ -7,6 +7,8 @@ import { FaC } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { BiLogoCPlusPlus } from "react-icons/bi";
 import { RiVercelLine } from "react-icons/ri";
+import { SiMongodb } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
 
 
 
@@ -49,6 +51,14 @@ const Skills = [
     {
         name:"NODE js",
         icon:<FaNode  className='text-green-400' />,
+    },
+    {
+        name:"MongoDB",
+        icon:<SiMongodb className='text-green-600' />,
+    },
+    {
+        name:"Express js",
+        icon:<SiExpress className='text-gray-600 ' />,
     },
     {
         name:"Tailwind",
