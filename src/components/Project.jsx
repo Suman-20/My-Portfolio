@@ -3,6 +3,12 @@ import { FaGithub } from "react-icons/fa";
 
 const projects = [
   {
+    title:"Bt-fy",
+    description:"Bot-fy – A full-stack AI chatbot application built using React, Node.js, Express, MongoDB, and Axios, featuring real-time messaging, smooth UI, and seamless frontend-backend communication.",
+     githubLink:"https://github.com/Suman-20/Bot-fy",
+     image:"/chat1.png"
+  },
+  {
     title: "NeoClock",
     description: "A modern digital clock built with javascript and CSS. Features real-time updates, responsive design & smooth animations",
     githubLink: "https://github.com/Suman-20/Neo-Clock",
