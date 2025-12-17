@@ -2,6 +2,8 @@
 @import "tailwindcss";
 
 body{
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins";
+    background-color: rgb(23, 23, 42);
+   color: rgba(240, 248, 255, 0.572);
 
 }

@@ -42,19 +42,43 @@ const projects = [
 
 const ProjectCard = ({ title, description, githubLink, image }) => {
   return (
-    <div name ="Project" className="shadow-md shadow-gray-500 rounded-lg p-4 transfrom transition duration-300 hover:scale-110  max-w-sm">
-      <img src={image} alt={title} className="w-full h-40 object-cover rounded-md mb-4" />
-      <h2 className="text-2xl font-semibold mb-2">{title}</h2>
-      <p className="text-gray-600 mb-4">{description}</p>
-      <div className='flex justify-center'>
-      <a 
-        href={githubLink} 
-        target="_blank" 
-        className="inline-block bg-black text-white px-16 py-2 text-center rounded-full hover:scale-105  transition">
-        <FaGithub className='text-2xl'/>
-      </a>
-      </div>
-    </div>
+    // <div name ="Project" className="shadow-md shadow-gray-500 rounded-lg p-4 transfrom transition duration-300 hover:scale-110  max-w-sm">
+    //   <img src={image} alt={title} className="w-full h-40 object-cover rounded-md mb-4" />
+    //   <h2 className="text-2xl font-semibold mb-2">{title}</h2>
+    //   <p className="text-gray-600 mb-4">{description}</p>
+    //   <div className='flex justify-center'>
+    //   <a 
+    //     href={githubLink} 
+    //     target="_blank" 
+    //     className="inline-block bg-black text-white px-16 py-2 text-center rounded-full hover:scale-105  transition">
+    //     <FaGithub className='text-2xl'/>
+    //   </a>
+    //   </div>
+    // </div>
+<div 
+  name="Project" 
+  className="relative overflow-hidden rounded-lg p-4 shadow-md shadow-gray-500 transform transition duration-300 hover:scale-105 group max-w-sm"
+>
+  {/* Border Effect */}
+  <span className="absolute top-0 left-0 w-0 h-full border-2 border-blue-900 shadow-md transition-all duration-500 group-hover:w-full pointer-events-none"></span>
+  
+  <img src={image} alt={title} className="w-full h-40 object-cover rounded-md mb-4" />
+  <h2 className="text-2xl font-semibold mb-2">{title}</h2>
+  <p className="text-gray-600 mb-4">{description}</p>
+  <div className='flex justify-center'>
+    <a 
+      href={githubLink} 
+      target="_blank" 
+      className="inline-block bg-black text-white px-16 py-2 text-center rounded-full hover:scale-105 transition"
+    >
+      <FaGithub className='text-2xl'/>
+    </a>
+  </div>
+</div>
+
+
+
+
   );
 };
 
